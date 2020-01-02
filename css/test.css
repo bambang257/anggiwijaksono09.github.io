@@ -1,0 +1,204 @@
+.body{
+	padding-top: 0px;
+	padding-left: 0px;
+	font-family: monospace;
+}
+/* Header  */
+.header-section {
+	background-image: url(../gambar/a.jpg);
+	margin-top: -7px;
+	position: fixed;
+	z-index: 99;
+	width: 100%;
+}
+
+.site-logo {
+	display: inline-block;
+	padding-top: 10px;
+    padding-left: 80px;
+}
+
+.logo{
+    width: 130px;
+}
+
+.logo:hover{
+	width: 140px;
+}
+
+.main-menu {
+	list-style: none;
+	float: right;
+	padding-right: 30px;
+}
+
+.main-menu li {
+	display: inline-block;
+}
+
+.main-menu li a {
+	display: block;
+	font-size: 12px;
+	color: #fff;
+	font-weight: 600;
+	text-transform: uppercase;
+    font-family: sans-serif;
+	padding: 25px 0;
+	margin-right: 45px;
+}
+/* Header */
+
+/* section */
+.profile-section {
+    margin-bottom: -100px;
+    padding: 50px ;
+    width: 93%;
+    position: relative;
+}
+
+.profile-text{
+    padding-left: 30px;
+    width: 50%;
+}
+
+.profile-text h1 {
+	font-size: 38px;
+	margin-bottom: 25px;
+	margin-top: 50px;
+}
+
+.profile-text p {
+	margin-bottom: 45px;
+	text-align: justify;
+}
+
+.profile-foto {
+	width: 30%;
+	position: absolute;
+	margin-top:-450px;
+	margin-left: 850px;
+}
+
+.foto_profile{
+	background: url("../gambar/images.jpg");
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 300px;
+}
+/* end section */
+
+/* footer */
+.footer-section {
+	background-color: black;
+	height: 60px;
+	padding: 19px 20px;
+	margin-top: 80px;
+    position: relative;
+    width: 100%;
+	bottom: 0;
+	
+}
+
+.footer-social {
+    text-align: center;
+	height: 40px;
+	padding-bottom: 10px;
+	margin-left: 4%;
+}
+
+.footer-social a {
+	margin-right: 50px;
+}
+
+.icon{
+	width: 30px;
+}
+
+.footer-copyright {
+	text-align: center;
+	color: #fff;
+	font-size: 11px;
+	font-weight: 500;
+    
+}
+/* footer */
+
+/* animation */
+.icon:hover{
+	width: 40px;
+}
+.main-menu li a:hover {
+	font-size: 15px;
+	color: #ffae00 ;
+}
+
+.foto_profile:hover{
+	background: url("../gambar/Untitled-2.jpg");
+	background-size: 70%;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	padding: 0 30px;
+	overflow: hidden;
+}
+
+.foto_profile{
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+/* end animation */
+
+
+
+/*kontak*/
+.kontak{
+	background-image: url(../gambar/aa.jpg);
+	margin-bottom: -100%;
+}
+.contact-section {
+	position: relative;
+	padding: 120px 0;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.contact-form {
+	padding-top: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+	font-size: 14px;
+	color: #7d7d7d;
+	border: none;
+	border-bottom: 1px solid #b2b2b2;
+	padding-bottom: 14px;
+	margin-bottom: 20px;
+}
+
+.contact-form input{
+	width: 50%;
+}
+
+.contact-form textarea {
+	width: 100%;
+}
+
+.contact-form textarea {
+	height: 165px;
+	margin-bottom: 38px;
+}
+
+.contact-msg::-webkit-input-placeholder {
+	padding-top: 130px;
+}
+/* form */

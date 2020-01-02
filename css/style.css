@@ -1,0 +1,436 @@
+/* Universal */
+html, body {
+	font-family: sans-serif;
+	margin: 0;
+	background: none;
+}
+
+a{
+    text-decoration: none;
+}
+/* Universal */
+
+.header-section {
+	background-image: url(../gambar/a.jpg);
+	margin-top: -7px;
+	position: fixed;
+	z-index: 99;
+	width: 100%;
+}
+
+.site-logo {
+	display: inline-block;
+	padding-top: 10px;
+    padding-left: 80px;
+}
+
+.logo{
+    width: 130px;
+}
+
+.logo:hover{
+	width: 140px;
+}
+
+.main-menu {
+	list-style: none;
+	float: right;
+	padding-right: 30px;
+}
+
+.main-menu li {
+	display: inline-block;
+}
+
+.main-menu li a {
+	display: block;
+	font-size: 12px;
+	color: #fff;
+	font-weight: 600;
+	text-transform: uppercase;
+    font-family: sans-serif;
+	padding: 25px 0;
+	margin-right: 45px;
+}
+
+/* section */
+.profile-section {
+    padding: 50px 15px;
+    position: relative;
+}
+
+
+.profile-text{
+    padding-left: 30px;
+    width: 50%;
+}
+
+.profile-text h1 {
+	font-size: 48px;
+	margin-bottom: 25px;
+}
+
+.profile-text p {
+	margin-bottom: 45px;
+	text-align: justify;
+}
+
+.profile-foto {
+	width: 45%;
+	position: absolute;
+	margin-top:-400px;
+	margin-left:750px;
+}
+
+.foto_profile{
+	background: url("../gambar/render___nezuko_by_asukij_ddip927-pre.png");
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 300px;
+}
+
+	/* form */
+	.btn {
+		border: none;
+		font-size: 14px;
+		padding: 24px 47px;
+		border-radius: 0;
+		text-transform: uppercase;
+		color: rgb(4, 252, 24);
+		cursor: pointer;
+		background: #212121;
+	}
+
+	input:focus,
+	select:focus,
+	button:focus,
+	textarea:focus {
+		outline: none;
+	}
+
+	.contact-section {
+		position: relative;
+		padding: 120px 0;
+		width: 50%;
+		margin: 0 auto;
+	}
+
+	.contact-form {
+		padding-top: 20px;
+	}
+
+	.contact-form input,
+	.contact-form textarea {
+		font-size: 14px;
+		color: #88ff00;
+		border: none;
+		border-bottom: 1px solid #b2b2b2;
+		padding-bottom: 14px;
+		margin-bottom: 20px;
+	}
+
+	.contact-form input{
+		width: 50%;
+	}
+
+	.contact-form textarea {
+		width: 100%;
+	}
+
+	.contact-form textarea {
+		height: 165px;
+		margin-bottom: 38px;
+	}
+
+	.contact-msg::-webkit-input-placeholder {
+		padding-top: 130px;
+	}
+	/* form */
+
+	/* table */
+	table {
+		margin: auto;
+		color: #232323;
+		border-collapse: collapse;
+		width: 50%;
+	}
+	
+	table th {
+		border: 1px solid #999;
+		padding: 8px 20px;
+		background: #212121 ;
+		color: #fff;
+		font-weight: normal;
+	}
+	
+	table td:first-child {
+		text-align: left;
+		padding-left: 20px;
+	}
+	
+	table td {
+		border-bottom: 1px solid #999;
+		padding: 8px 20px;
+		text-align: center;
+		background: #eeeeee;
+	}
+	
+	.private-data-section {
+		padding-top:100px ;
+		position: relative;
+		z-index: 2;
+	}
+	
+	.private-data-container {
+		min-height: 100vh;
+		display: flex;
+		align-items: center;
+		padding: 33px 100px;
+	}
+	
+	.private-data-wrap {
+		width: 100%;
+	}
+	
+	.private-data-table {
+	}
+	
+	.private-data-table h2 {
+		text-align: center;
+	}
+	/* table */
+
+/* section */
+
+/* footer */
+.footer-section {
+	background-color: black;
+	height: 50px;
+	padding: 19px 20px;
+	margin-top: 0px;
+	position: relative;
+	bottom: 0;
+	
+}
+
+.footer-social {
+    text-align: center;
+	height: 40px;
+	padding-bottom: 10px;
+	margin-left: 4%;
+}
+
+.footer-social a {
+	margin-right: 50px;
+}
+
+.icon{
+	width: 40px;
+}
+
+.footer-copyright {
+	text-align: center;
+	color: #fff;
+	font-size: 11px;
+	font-weight: 500;
+    
+}
+/* footer */
+
+/* Support */
+.merah{
+    background: red;
+}
+
+.biru{
+    background: blue;
+}
+/* Support */
+
+
+/* animation */
+.icon:hover{
+	width: 60px;
+}
+.main-menu li a:hover {
+	font-size: 15px;
+	color: #ffae00 ;
+}
+
+table tr:hover td {
+	background: transparent;
+	color: #ffffff;
+}
+
+.btn:hover {
+	background: #333695;
+}
+
+.contact-form input{
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+}
+
+.contact-form input:focus{
+	width: 100%;
+}
+
+.foto_profile:hover{
+	background: url("../gambar/ddc60af-5b680d72-6dd4-4c28-bb8c-6f064c703472.png");
+	background-size: 70%;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	padding: 0 30px;
+	overflow: hidden;
+}
+
+
+
+.foto_profile{
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+
+/* animation */
+
+
+/* section kontak*/
+.kontak{
+	background-image: url(../gambar/aa.jpg);
+	height: 100%;
+}
+
+.isian{
+	margin-left: -50px;
+	width: 100%;
+}
+
+.textarea{
+	margin-left: -28px;
+}
+.time{
+	margin-left: -187px;
+}
+.gender{
+	margin-left: -170px;
+}
+.fakultas{
+	margin-left: -210px;
+}
+.date{
+	margin-left: -170px;
+}
+
+.title-bio{
+	text-align: center;
+}
+.status{
+	margin-left: -78px;
+}
+.file{
+	margin-left: -53px;
+}
+.submit{
+	margin-left: 75px;
+}
+
+.about{
+	padding-top: 7%;
+}
+
+.footer-section1 {
+	background-color:black;
+	height: 80px;
+	padding-top: 30px;
+	margin-top: 80px;
+	position: relative;
+	bottom: 0;
+	
+}
+
+.footer-social1 {
+    text-align: center;
+	height: 40px;
+	padding-bottom: 10px;
+	margin-left: 4%;
+}
+
+.footer-social1 a {
+	margin-right: 50px;
+}
+
+.icon{
+	width: 40px;
+}
+
+.footer-copyright1 {
+	text-align: center;
+	color: #fff;
+	font-size: 11px;
+	font-weight: 500;
+	bottom: 10px;
+}
+
+.box{
+    width: 250px;
+    float: left;
+    margin-top: 100px;
+    border-radius: 9px;
+    margin-left: 15px;
+}
+
+.footer-section2 {
+	background-color:black;
+	height: 80px;
+	padding-top: 30px;
+	margin-top: 30%;
+	position: relative;
+	bottom: 0;
+	
+}
+
+.footer-social2{
+    text-align: center;
+	height: 40px;
+	padding-bottom: 10px;
+	margin-left: 4%;
+}
+
+.footer-social2 a {
+	margin-right: 50px;
+}
+
+.icon{
+	width: 40px;
+}
+
+.footer-copyright2 {
+	text-align: center;
+	color: #fff;
+	font-size: 11px;
+	font-weight: 500;
+	bottom: 10px;
+}
+
+.header-section2{
+	background-image: url(../gambar/a.jpg);
+	position: fixed;
+	width: 100%;
+	margin-top: -9%;
+}
+.contact-section2{
+	margin-top: 110px;
+	margin-bottom: 57%;
+}
+
